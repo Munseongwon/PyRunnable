@@ -1,6 +1,6 @@
 # PyRunnableGame
 ### Let's Breakout the block!!!
-<img src="START.png" alt="Intro Screen" width="260px" height="400px"><img src="play.png" alt="game playing" width="260px" height="400px"><img src="final_score.png" alt="Game_Over Screen" width="250px" height="400px">
+<img src="START.png" alt="Intro Screen" width="260px" height="400px"><img src="play.png" alt="game playing" width="260px" height="400px"><img src="final_score.png" alt="Game_Over Screen" width="260px" height="400px">
 
 ## 프로젝트 요약
 ![Langauge:Python](https://img.shields.io/badge/Language-Python-purple) ![platform:PyGame](https://img.shields.io/badge/Platform-PyGame-pink)
