@@ -1,26 +1,24 @@
 # PyRunnableGame
-### Let's Breakout the block!!!
+### This is My First PyGame Project
 <img src="START.png" alt="Intro Screen" width="260px" height="400px"><img src="play.png" alt="game playing" width="260px" height="400px"><img src="final_score.png" alt="Game_Over Screen" width="260px" height="400px">
 
 ## 프로젝트 요약
 ![Langauge:Python](https://img.shields.io/badge/Language-Python-purple) ![platform:PyGame](https://img.shields.io/badge/Platform-PyGame-pink)
-> 2022.01.03 - 2022.01.06   
+> 2021.12.21 - 2021.12.28   
  
 > **Python 개인 프로젝트**
-* Python 기본 강의를 익히고 난 뒤에 진행한 미니 프로젝트입니다.
-* PyGame Package를 활용하여 제작하였습니다.
+* Python 기본 강의를 익히고 난 뒤에 진행한 첫 미니 프로젝트
+* PyGame Package를 활용하여 제작
+* 게임 화면은 800 * 400
+* 게임 객체는 플레이어, 스네일, 파리로 구성되어 있음
+* 게임 1프레임당 60초의 간격을 주었음
 <br>
 
 > **게임 로직 설명**
-* 파이참의 파이게임 라이브러리 설치
-* 화면창의 크기:1280 * 720
-* RGB 값 각각 BLACK, WHITE, YELLOW, RED를 주었음
-* 게임 1프레임당 60초의 간격을 주었음
-* 우주선은 화면 창에서 벗어나지 않도록 설정, 운석에 부딪히면 즉시 종료, 미사일을 우주선 정중앙에서 나오도록 함
-* 돌은 맞혀지는 즉시 파괴, 우주선이 격추한 운석의 개수에 따라 떨어지는 속도를 달리함
-* 미사일은 눌리는 키보드에 따라 위치를 달리해서 나오게끔 설정 --> event 함수 씀
-* 파괴 음악, 배경음악, 운석이 폭파하는 음 역시 효과를 랜덤하게 줌
-* 운석 역시 30개를 게임창에 넣음으로써 게임할 시 지루함을 덜했음
+* 처음 게임 시작할 때에는 스페이스 키 누르면 게임 시작
+* 플레이어가 장애물(스네일, 파리)에 닿지 않으면 점수 1씩 증가
+* 플레이어는 스네일을 피할 때에는 점프(스페이스 키)로 피할 수 있고 파리는 어떠한 키를 누르지 않으면 알아서 피한다
+* 플레이어가 장애물과 접촉하면 해당 점수가 저장되면서 게임 종료
 <br>
 
 ## 시연영상
